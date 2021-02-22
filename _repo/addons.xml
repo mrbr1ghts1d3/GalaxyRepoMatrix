@@ -23,7 +23,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.releaseBB" version="2.0.3.11" name="Release[COLOR orange][B]BB[/B][/COLOR]" provider-name="Bugatsinho">
+<addon id="plugin.video.releaseBB" version="2.0.3.12" name="Release[COLOR orange][B]BB[/B][/COLOR]" provider-name="Bugatsinho">
   <requires>
     <import addon="script.module.cloudscraper" version="1.2.34"/>
     <!--import addon="script.module.t0mm0.common" version="2.1.1"/-->
