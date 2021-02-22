@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="matrix.to.the.stars" name="Galaxy Repo (Matrix)" version="1.0.0" provider-name="Ruler Of The Cosmos">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Galaxy Repo (Matrix)">
+            <info compressed="false">https://raw.githubusercontent.com/mrbr1ghts1d3/GalaxyRepoMatrix/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mrbr1ghts1d3/GalaxyRepoMatrix/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mrbr1ghts1d3/GalaxyRepoMatrix/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>If you know, you know.</summary>
+            <description>If you know, you know.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.program.galaxywizard" name="Galaxy Wizard (Matrix)" version="1.0.4" provider-name="TWMF">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Galaxy Wizard allows the installation of Galaxy Build</summary>
+		<description lang="en_GB">Galaxy Wizard allows the installation of Galaxy Build</description>
+		<disclaimer lang="en_GB">If ya know, ya know</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<news>
+1.0.4
+- Initial release - Version number increments from previous Galaxy Wizard
+		</news>
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
+</addons>
