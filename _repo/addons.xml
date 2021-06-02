@@ -10,16 +10,43 @@
 				<checksum>https://raw.githubusercontent.com/mrbr1ghts1d3/GalaxyRepoMatrix/master/_repo/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/mrbr1ghts1d3/GalaxyRepoMatrix/master/_repo/</datadir>
 			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-			</dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>If you know, you know.</summary>
             <description>If you know, you know.</description>
             <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.program.galaxy" name="[COLOR aqua]Galaxy[/COLOR]Wizard" version="1.0.0" provider-name="APL3S">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR aqua]Galaxy[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR aqua]Galaxy[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source></source>
+        <news>
+1.0.0
+ - Initial Commit
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
     </extension>
 </addon>
 </addons>
