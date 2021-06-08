@@ -18,7 +18,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.galaxy" name="[COLOR aqua]Galaxy[/COLOR]Wizard" version="1.0.0" provider-name="APL3S">
+<addon id="plugin.program.galaxywizard" name="[COLOR aqua]Galaxy[/COLOR]Wizard" version="1.0.0" provider-name="APL3S">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
